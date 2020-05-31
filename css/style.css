@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    overflow: hidden;
+
+}
+
+div.board {
+    box-sizing: border-box;
+    position: absolute;
+    top: calc(50% - 15vw);
+    left: calc(50% - 15vw);
+    height: 30vw;
+    width: 30vw;
+    border: 4px solid black;
+    font-size: 0;
+
+}
+
+span:first-child {
+    width: 50%;
+    height: 50%;
+    background-color: brown;
+    display: inline-block;
+
+}
+
+span:nth-child(2) {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    display: inline-block;
+}
+
+span:nth-child(3) {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    display: inline-block;
+}
+
+span:nth-child(4) {
+    width: 50%;
+    height: 50%;
+    background-color: brown;
+    display: inline-block;
+}
+
+
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: arial;
+    position: absolute;
+    bottom: 10%;
+    width: 100vw;
+}
